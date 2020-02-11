@@ -17,7 +17,7 @@ variable "project_tags" {
   description = "Project tags to be used to track costs."
   type        = map(string)
   default = {
-    Name       = "Instance3-dev"
+    Name       = "tfe-upload"
     Owner      = "Will Hall"
     Purpose    = "Testing"
     CostCenter = "0002"

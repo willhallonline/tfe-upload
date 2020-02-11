@@ -1,10 +1,10 @@
-terraform {
-  backend "remote" {
-    hostname = "tfe.willhallonline.net"
-    organization = "telefonica"
+# terraform {
+#   backend "remote" {
+#     hostname = "tfe.willhallonline.net"
+#     organization = "telefonica"
 
-    workspaces {
-      name = "tfe-upload"
-    }
-  }
-}
+#     workspaces {
+#       name = "tfe-upload"
+#     }
+#   }
+# }
